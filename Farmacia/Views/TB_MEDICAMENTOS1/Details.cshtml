@@ -1,14 +1,14 @@
 ﻿@model Farmacia.Models.TB_MEDICAMENTOS
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detalles";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
+<h2>Detalles</h2>
 
 <div>
-    <h4>TB_MEDICAMENTOS</h4>
+    <h4>Medicamento</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -43,9 +43,49 @@
             @Html.DisplayFor(model => model.PRECIO)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(model => model.GRAMAJE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GRAMAJE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TIPO_PASTILLAS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TIPO_PASTILLAS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DOBLE_RECETA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DOBLE_RECETA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PRESENTACION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PRESENTACION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LABORATORIO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LABORATORIO)
+        </dd>
+
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Editar", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Regresar al Listado", "Index")
 </p>

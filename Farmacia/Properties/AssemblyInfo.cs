@@ -27,9 +27,9 @@ using System.Runtime.InteropServices;
 //      Versión principal
 //      Versión secundaria
 //      Número de compilación
-//      Revisión
+//      Revisión 
 //
 // Puede especificar todos los valores o puede predeterminar los números de compilación y de revisión
 // mediante el carácter '*', como se muestra a continuación:
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")] 
