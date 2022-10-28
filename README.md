@@ -65,7 +65,7 @@ SQL SERVER
 Cambiar en el archivo Web.config cambie lo siguiente:
 -> donde dice:
   <connectionStrings>
-    <add name="BD_FARMACIAEntities3" connectionString="............ data source=RODO-PC\SQLEXPRESS......."
+    <add name="BD_FARMACIAEntities3" connectionString="............ data source=PABLO-PC\SQLEXPRESS......."
 
 -> reemplazarlo por: el data-source que corresponda (generalmente <nombre-pc>\sqlexpress, ver el nombre en mgmt-studio)
 
