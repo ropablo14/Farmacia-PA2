@@ -74,7 +74,7 @@ DROP TABLE [dbo].[TB_MEDICAMENTOS];
 CREATE TABLE [dbo].[TB_MEDICAMENTOS](
 	[ID] [int] IDENTITY NOT NULL,
 	[NOMBRE] [varchar](50) NOT NULL,
-	[DESCRIPCION] [varchar](50) NOT NULL,
+	[DESCRIPCION] [varchar](50) NULL,
 	[CANTIDAD] [int] NULL,
 	[PRECIO] [decimal](18, 0) NULL,
 	[GRAMAJE] [varchar](50) NULL,
